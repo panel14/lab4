@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>World.World</OriginalElement>
+  <nodes>
+    <node x="172.0" y="470.0">Demon.Demon</node>
+    <node x="70.0" y="390.0">Creature.Creature</node>
+    <node x="16.0" y="160.0">World.World</node>
+    <node x="171.99999999999994" y="315.0">Weapons.Shotgun</node>
+    <node x="0.0" y="470.0">DoomGuy.DoomGuy</node>
+    <node x="0.0" y="315.0">Weapons.Minigun</node>
+    <node x="540.0" y="315.0">Weapons.Feast</node>
+    <node x="343.99999999999994" y="315.0">Weapons.Gausse_gun</node>
+    <node x="0.0" y="0.0">typing.Hashable</node>
+    <node x="263.99999999999994" y="235.0">Weapons.Weapons</node>
+    <node x="36.0" y="80.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Demon.Demon" target="Creature.Creature">
+      <point x="0.0" y="-15.0" />
+      <point x="232.0" y="445.0" />
+      <point x="196.0" y="445.0" />
+      <point x="42.0" y="15.0" />
+    </edge>
+    <edge source="Weapons.Gausse_gun" target="Weapons.Weapons">
+      <point x="0.0" y="-15.0" />
+      <point x="431.99999999999994" y="295.0" />
+      <point x="358.99999999999994" y="295.0" />
+      <point x="19.0" y="15.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Weapons.Feast" target="Weapons.Weapons">
+      <point x="0.0" y="-15.0" />
+      <point x="608.0" y="285.0" />
+      <point x="396.99999999999994" y="285.0" />
+      <point x="57.0" y="15.0" />
+    </edge>
+    <edge source="DoomGuy.DoomGuy" target="Creature.Creature">
+      <point x="0.0" y="-15.0" />
+      <point x="76.0" y="445.0" />
+      <point x="112.0" y="445.0" />
+      <point x="-42.0" y="15.0" />
+    </edge>
+    <edge source="Weapons.Minigun" target="Weapons.Weapons">
+      <point x="0.0" y="-15.0" />
+      <point x="76.0" y="285.0" />
+      <point x="282.99999999999994" y="285.0" />
+      <point x="-57.0" y="15.0" />
+    </edge>
+    <edge source="Weapons.Shotgun" target="Weapons.Weapons">
+      <point x="0.0" y="-15.0" />
+      <point x="247.99999999999994" y="295.0" />
+      <point x="320.99999999999994" y="295.0" />
+      <point x="-19.0" y="15.0" />
+    </edge>
+    <edge source="World.World" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="124.5" y="423.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+</Diagram>
+
